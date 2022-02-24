@@ -1,9 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Link from "next/link"
+import React from "react"
 
 export default function Home() {
   return (
-    <div>Home Page</div>
+    <div>
+      <div>Home Page</div>
+      <Link href="/user">
+        <a>Go user page</a>
+      </Link>
+    </div>
   )
 }

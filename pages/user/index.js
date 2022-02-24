@@ -1,6 +1,12 @@
-
+import Link from "next/link"
+import React from "react"
 export default function User() {
   return (
-    <div>User Page 123</div>
+    <div>
+      <div>User Page 123</div>
+      <Link href="/">
+        <a>Go Home</a>
+      </Link>
+    </div>
   )
 }
